@@ -4,7 +4,10 @@ var i18nItAll = require('workshopper-adventure')({
   	bg: 'cyan'
   },
   header: require('workshopper-adventure/default/header'),
-  footer: require('workshopper-adventure/default/footer')
+  footer: [
+  	'---',
+  	require('workshopper-adventure/default/footer')
+  ]
 })
 
 i18nItAll.addAll([
