@@ -1,0 +1,1 @@
+Some countries have limitations on cookies. If the country is detected it should show an alert message before using cookies (government policy)

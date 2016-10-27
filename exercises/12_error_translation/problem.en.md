@@ -1,0 +1,2 @@
+- Use codes for errors
+- Throw an error with a file that contains a translation
