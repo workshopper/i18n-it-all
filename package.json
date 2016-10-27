@@ -1,0 +1,38 @@
+{
+  "name": "i18n-it-all",
+  "description": "",
+  "version": "1.0.0",
+  "main": "i18n-it-all.js",
+  "scripts": {
+    "test": "standard && workshopper-adventure-test",
+    "lint": "standard"
+  },
+  "bin": {
+    "i18n-it-all": "bin/i18n-it-all"
+  },
+  "preferGlobal": true,
+  "keywords": [],
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^8.4.0",
+    "workshopper-adventure-test": "^1.0.4"
+  },
+  "dependencies": {
+    "after": "^0.8.2",
+    "diff": "^3.0.1",
+    "exec-module": "^1.0.0",
+    "leftpad": "0.0.0",
+    "lodash.samplesize": "^4.2.0",
+    "lodash.zipwith": "^4.2.0",
+    "workshopper-adventure": "^5.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workshopper/i18n-it-all.git"
+  },
+  "bugs": {
+    "url": "https://github.com/workshopper/i18n-it-all/issues"
+  },
+  "homepage": "https://github.com/workshopper/i18n-it-all#readme"
+}

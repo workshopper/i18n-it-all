@@ -1,0 +1,8 @@
+{
+	"exercise": {
+	  "01_dynamic_output": "Dynamic Output"
+	},
+	"dynamic_output": {
+		"greeting": "Greeting for '{{input.name}}' with language '{{input.lang}}': {{output}}"
+	}
+}

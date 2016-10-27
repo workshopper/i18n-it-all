@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../i18n-it-all').execute(process.argv.slice(2))
