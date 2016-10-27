@@ -75,7 +75,7 @@ module.exports = {
   problem: {
     file: path.join(__dirname, 'problem.{lang}.md')
   },
-  solution: ['```javascript\n' + fs.readFileSync(solution, 'utf8') + '```\n\n'],
+  solution: ['```javascript\n' + fs.readFileSync(solution, 'utf8').replace('../../data', '{rootdir}/data') + '```\n\n'],
   init: function (i18nall) {
     this.i18n = i18nall.i18n
   },
