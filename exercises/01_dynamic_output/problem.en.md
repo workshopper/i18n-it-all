@@ -1,4 +1,4 @@
-To pass this exercise write a module that takes one four-letter
+To pass this exercise write a module that takes a two or four-letter
 _(hyphenated)_ language specifier from the `process.env.LANG`  environment 
 variable to respond with a greeting to a person with his name in the 
 appropriate language.
@@ -26,14 +26,14 @@ This file contains a greeting for all the languages it will be tested against. O
 personalize the greeting.
 
 ISO standardised language codes under the [ISO 639] system. In this exercise 
-we use two-letter [ISO 639-1] language codes. It does not specify any language 
-there is but works with all the languages commonly used. In the ISO 639
-specification `de` stands for german, `en` for english, etc.
+we use two-letter [ISO 639-1] language codes. These language codes technically
+does not contain every possible language that exists but in practise, all the 
+common languages are specified. In the ISO 639 specification `de` stands for german, `en` for english, etc.
 
-In order to make it possible to be even more precise the specifier has the
-[ISO 3166-1] two-letter country code attached. As such `de-at` stands for 
-"german language used in austria" or `zh-tw` for "chinese language used in 
-taiwan".
+Lets be more specific! The language codes can come with [ISO 3166-1] 
+two-letter country code attached. `de-at` stands for 
+_"german language used in austria"__ or `zh-tw` for _"chinese language used in 
+taiwan"_.
 
 This file contains all the languages that will be tested from the system. 
 However, since we havn't found all the chinese or japanese dialects you
