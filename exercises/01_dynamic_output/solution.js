@@ -6,5 +6,5 @@ module.exports = function (name) {
 	if (!base) {
 		base = translations[lang.split('-')[0]]
 	}
-	return base.replace('{name}', name)
+	return base.replace('[name]', name)
 }

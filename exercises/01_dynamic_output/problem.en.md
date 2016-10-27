@@ -22,7 +22,7 @@ you need:
 
     {rootdir}/data/hello.json
 
-This file contains a greeting for all the languages it will be tested against. One String will have a placeholder specified as `{name}` which can be used to
+This file contains a greeting for all the languages it will be tested against. One String will have a placeholder specified as `[name]` which can be used to
 personalize the greeting.
 
 ISO standardised language codes under the [ISO 639] system. In this exercise 
