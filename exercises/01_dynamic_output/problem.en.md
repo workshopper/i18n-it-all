@@ -32,7 +32,7 @@ common languages are specified. In the ISO 639 specification `de` stands for ger
 
 Lets be more specific! The language codes can come with [ISO 3166-1] 
 two-letter country code attached. `de-at` stands for 
-_"german language used in austria"__ or `zh-tw` for _"chinese language used in 
+_"german language used in austria"_ or `zh-tw` for _"chinese language used in 
 taiwan"_.
 
 This file contains all the languages that will be tested from the system. 
