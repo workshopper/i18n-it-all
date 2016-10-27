@@ -104,7 +104,8 @@ module.exports = {
             require('workshopper-adventure/default/pass'),
             {
               file: path.join(__dirname, 'review.{lang}.md')
-            }
+            },
+            '---'
           ])
         }
         callback('{error.not_same}:\n' + formatDiffs(diffs), false, 
