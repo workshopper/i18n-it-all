@@ -1,7 +1,5 @@
-To pass this exercise you need to write a module with three
-methods.
-
-The first method should render a text to address people:
+To pass this exercise you need to write a module to address persons. It should
+take only one argument which is an array containing a list of persons:
 
 ```javascript
 module.exports = function addressRecepients(persons) {
@@ -11,7 +9,7 @@ module.exports = function addressRecepients(persons) {
 }
 ```
 
-The input argument `persons` is an Array with the name of one or more names.
+The input argument `persons` can have no name, one name or several.
 
 To determine the language a two letter language code like `en` will be provided in the `process.env.LANG` environment variable.
 
