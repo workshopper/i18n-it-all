@@ -11,7 +11,8 @@ var i18nItAll = require('workshopper-adventure')({
 })
 
 i18nItAll.addAll([
-	'01_dynamic_output'
+	'01_dynamic_output',
+  '02_i_my_me_mine'
 ])
 
 module.exports = i18nItAll
