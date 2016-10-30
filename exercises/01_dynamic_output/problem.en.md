@@ -15,15 +15,18 @@ return `こんにちは、Michaelさん！`.
 
 ---
 
-## Notes
+## Hints:
 
-You do not need to know the greeting in all languages. This file contains al 
-you need:
+You do not need to know the greeting in all languages. The following file 
+contains all you need:
 
     {rootdir}/data/hello.json
 
-This file contains a greeting for all the languages it will be tested against. One String will have a placeholder specified as `[name]` which can be used to
+This file contains a greeting for all the languages it will be tested against. One String will have a placeholder specified as `%s` which can be used to
 personalize the greeting.
+
+You can replace the String in any way you want. Node.js's `util.format` method
+might come in handy.
 
 ISO standardised language codes under the [ISO 639] system. In this exercise 
 we use two-letter [ISO 639-1] language codes. These language codes technically
@@ -40,9 +43,10 @@ However, since we havn't found all the chinese or japanese dialects you
 will have to fall back to the two-letter language code in case the combination
 is not available.
 
-Beside those common occuring combinations, in your project it might also 
-make sense to have uncommon combinations. `en-jp` could stand for "english 
-language used japan" which does have a few special expression!
+_Side Note: Beside those common occuring combinations, in your project it 
+might also make sense to have uncommon combinations. `en-jp` could stand for 
+"english language used japan" which does have a few special expression!_
+
 
 [ISO 639]: https://en.wikipedia.org/wiki/ISO_639 
 [ISO 639-1]: https://en.wikipedia.org/wiki/ISO_639-1
