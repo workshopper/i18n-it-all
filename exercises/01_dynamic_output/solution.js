@@ -1,10 +1,8 @@
 var translations = require('../../data/hello.json')
+var util = require('util')
 
 module.exports = function (name) {
-	var lang = process.env.LANG
-	var base = translations[lang]
-	if (!base) {
-		base = translations[lang.split('-')[0]]
-	}
-	return base.replace('[name]', name)
+  var four = process.env.LANG
+  var two = four.split('-')[0]
+  return util.format(translations[four] || translations[two], name)
 }

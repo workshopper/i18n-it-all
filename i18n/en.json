@@ -3,6 +3,6 @@
 	  "01_dynamic_output": "Dynamic Output"
 	},
 	"dynamic_output": {
-		"greeting": "Greeting for '{{input.name}}' with language '{{input.lang}}': {{output}}"
+		"greeting": "Greeting for '{{input.data}}' with language '{{input.lang}}': {{output}}"
 	}
 }
