@@ -1,0 +1,21 @@
+{
+  "en": {
+    "0": "Who is there?",
+    "1": "Hello %s!",
+    "2": "Hello %s, Hello %s!",
+    "3": "Hello %s, %s and %s!",
+    "4": "Hello everyone!"
+  },
+  "de": {
+    "0": "Ist da jemand?",
+    "1": "Hallo %s!",
+    "2": "Hallo %s, Hallo %s!",
+    "3": "Hallo %s, %s und %s!",
+    "4": "Hallo alle zusammen!"
+  },
+  "ja": {
+    "0": "誰かがいますか？",
+    "1": "こんにちは %sさん!",
+    "2": "こんにちは 皆さん！"
+  }
+}
