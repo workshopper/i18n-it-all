@@ -1,7 +1,7 @@
 var translations = require('../../data/addressation.json')
 var util = require('util')
 
-module.exports = function (persons) {
+module.exports = function addressPersons (persons) {
   var lang = process.env.LANG
   var translation = translations[lang]
   var closestMatch = translation[0]
