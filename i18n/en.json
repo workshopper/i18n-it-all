@@ -1,7 +1,8 @@
 {
 	"exercise": {
 	  "01_dynamic_output": "Dynamic Output",
-	  "02_i_my_me_mine": "I my me mine"
+	  "02_i_my_me_mine": "I my me mine",
+	  "03_rocket_science": "Rocket Science"
 	},
 	"dynamic_output": {
 		"greeting": "Greeting for '{{input.data}}' with language '{{input.lang}}': {{output}}"
