@@ -34,7 +34,7 @@ In Germany (`de-de`) kilograms are used for weights and abbreviated with `kg`.
 with following formatting `4 294 967.295,000` while the UK, US and Japan use
 `4,294,967,295.00`.
 
-When displaying numbers makes round the numbers to the next
+When displaying numbers make sure that they are rounded to the next
 percentile. `12.4567` → `12.46`.
 
 ---
@@ -56,7 +56,7 @@ usage are:
     it is common practice to label food weight in kg **and** lbs:
     "£2.18/kg 99p/Lb"
 
-[1] https://en.wikipedia.org/wiki/Metrication_in_New_Zealand
+[1]: https://en.wikipedia.org/wiki/Metrication_in_New_Zealand
 
 ## Hints
 
