@@ -65,9 +65,12 @@ come up with a reliable library that takes all countries and units into
 account. However there are libraries for unit conversion that work for limited
 sets.
 
-One such library is `js-quantities` and it is packed with this workshopper:
+One such library is `js-quantities` and version `1.6.3` is bundled with this 
+workshopper:
 
-    {rootdir}/node_modules/js-quantities
+```javascript
+require('{rootdir}/node_modules/js-quantities')
+```
 
 The readme is available here:
 
