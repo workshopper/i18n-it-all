@@ -24,7 +24,7 @@ looks like this:
 {
   "0": "Hello unknown!",
   "1": "Hello %s!",
-  "2": "Hello %s, Hello %!",
+  "2": "Hello %s, Hello %s!",
   "3": "Hello %s, %s and %s!",
   "4": "Hello everyone!"
 }
