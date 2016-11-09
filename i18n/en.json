@@ -1,4 +1,10 @@
 {
+  "error": {
+    "not_same": "Your solution didn't match the expected solution",
+    "expected": "[Expected]",
+    "actual":   "[Actual]  ",
+    "correct":  "[Same] "
+  },
   "exercise": {
     "01_dynamic_output": "Dynamic Output",
     "02_i_my_me_mine": "I my me mine",
