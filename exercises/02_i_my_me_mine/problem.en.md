@@ -32,5 +32,5 @@ looks like this:
 ```
 
 If the array passed in has no entries it should use `"0"`, if it has one entry
-it should use `"1"`, etc. If there are more than 4 entries in array it should
-still use `"4"`.
+it should use `"1"`, etc. If there are not enough available translations (i.e. 4)
+in array it should use maximum (`"4"`).
