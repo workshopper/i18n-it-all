@@ -55,10 +55,10 @@ expression!
 
 ---
 
-The provided file contains all the languages that will be tested from the
-system. However, since we have not found all the chinese or japanese
-dialects you will have to fall back to the two-letter language code in
-case the combination is not available.
+The provided file contains all the languages you will need. However, the language code
+might sometimes be for a local variation that is not an exact fit: i.e. we only have
+a greeting for "ja" but you might be asked for "ja-jp". You will have to fall back to
+the two-letter language code if the combination is not available.
 
 [ISO 639]: https://en.wikipedia.org/wiki/ISO_639
 [ISO 639-1]: https://en.wikipedia.org/wiki/ISO_639-1
