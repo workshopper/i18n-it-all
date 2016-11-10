@@ -38,9 +38,9 @@ method might come in handy.
 ---
 
 ISO standardized language codes under the [ISO 639] system. In this exercise
-we use two-letter [ISO 639-1] language codes. These language codes
-technically does not contain every possible language that exists but in
-practice, all the common languages are specified. In the ISO 639 specification
+we use two-letter [ISO 639-1] language codes. At the moment only 184 languages are
+specified this means that very minor languages are not covered by this standard.
+In practice that is almost never a problem. In the ISO 639 specification
 `de` stands for german, `en` for english, etc.
 
 Lets be more specific! The language codes can come with [ISO 3166-1]
