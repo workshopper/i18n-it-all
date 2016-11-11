@@ -17,6 +17,10 @@
     "nodeschool"
   ],
   "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "contributors": [
+    "Martin Heidegger (https://github.com/martinheidegger)",
+    "Ryuta Nakashima (https://github.com/atuyl)"
+  ],
   "license": "ISC",
   "devDependencies": {
     "standard": "^8.4.0",
