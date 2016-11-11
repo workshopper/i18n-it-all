@@ -11,7 +11,11 @@
     "i18n-it-all": "bin/i18n-it-all"
   },
   "preferGlobal": true,
-  "keywords": [],
+  "keywords": [
+    "workshopper",
+    "adventure",
+    "nodeschool"
+  ],
   "author": "Martin Heidegger <martin.heidegger@gmail.com>",
   "license": "ISC",
   "devDependencies": {
