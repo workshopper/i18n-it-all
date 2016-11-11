@@ -21,6 +21,6 @@
     "fallback":"Fall back to the best locale of our system."
   },
   "dynamic_output":{
-    "greeting":"Greeting for '{{input.data}}' with language '{{input.lang}}': {{output}}"
+    "greeting":"Gruesse von {{input.data}} mit Sprache {{input.lang}} : {{output}}"
   }
 }
