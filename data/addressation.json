@@ -11,7 +11,8 @@
     "1": "Hallo %s!",
     "2": "Hallo %s, Hallo %s!",
     "3": "Hallo %s, %s und %s!",
-    "4": "Hallo alle zusammen!"
+    "4": "Hallo %s, %s, %s und %s!",
+    "5": "Hallo alle zusammen!"
   },
   "ja": {
     "0": "誰かがいますか？",
