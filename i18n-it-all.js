@@ -3,9 +3,11 @@ var i18nItAll = require('workshopper-adventure')({
   menu: {
     bg: 'cyan'
   },
+  languages: ['en', 'ja'],
   header: require('workshopper-adventure/default/header'),
+  pass: require('workshopper-adventure/default/pass'),
+  fail: require('workshopper-adventure/default/fail'),
   footer: [
-    '---',
     require('workshopper-adventure/default/footer')
   ]
 })
