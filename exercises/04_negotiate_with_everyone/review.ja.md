@@ -26,6 +26,6 @@ This way your webserver already supports locale selection.
 
 For better user experience, now you can adjust your locale identification to
 better target your users. For example you could use [service workers][1] that
-use the same logic but do it locally & quicker than on the server.
+use the same logic but do it on the client, quicker than on the server.
 
 [1]: https://developer.mozilla.org/en/docs/Web/API/Service_Worker_API
