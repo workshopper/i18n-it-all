@@ -16,7 +16,8 @@ i18nItAll.addAll([
   '01_dynamic_output',
   '02_i_my_me_mine',
   '03_rocket_science',
-  '04_negotiate_with_everyone'
+  '04_negotiate_with_everyone',
+  '05_take_me_apart'
 ])
 
 module.exports = i18nItAll
