@@ -1,6 +1,7 @@
 {
   "error": {
-    "not_same": "Your solution didn't match the expected solution"
+    "not_same": "Your solution didn't match the expected solution",
+    "result_no_array": "Your solution didn't return an array"
   },
   "diff": {
     "expected": "[Missing]    ",

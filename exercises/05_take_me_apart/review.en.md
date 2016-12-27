@@ -28,10 +28,10 @@ __('exercise.' + exercise.name)
 
 In this case your parser has one of two options:
 
-1. **Ignore this statement** (or give a warning). This is problematic because it would be really good to know which keys are needed.
-2. **Treat this use as an error.** This is problematic because you might actually need to use translations like this sometimes.
+1. **Ignore such statements** (or give a warning). This is problematic because it would be really good to know what keys are needed.
+2. **Treat this use as an error.** This is problematic because you might actually need to use dynamic translations like this.
 
-With a bit of work at the parser it would be possible to create patterns like:
+With a bit of work at the parser it would be possible to collect patterns like:
 
 ```
 exercise.*
@@ -44,8 +44,8 @@ combinations.
 
 ### XGetText
 
-`gettext` is the is the standard tool for translation in C. The original
-`xgettext` is a tool that extracts the `gettext` usage in C and C++ files.
-In NPM there is a list of other `xgettext` variants for other file formats:
+`gettext` is the standard tool for translation in C. The original `xgettext` is
+a tool that extracts the `gettext` usage in C and C++ files. In NPM there is a
+list of `xgettext` variants besides `xgettext-js` for other file formats:
 
     https://www.npmjs.com/search?q=xgettext

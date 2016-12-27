@@ -38,6 +38,8 @@
     "lodash.sample": "^4.2.1",
     "lodash.samplesize": "^4.2.0",
     "lodash.zipwith": "^4.2.0",
+    "mkdirp": "^0.5.1",
+    "tmp": "0.0.31",
     "workshopper-adventure": "^5.1.1",
     "xgettext-js": "^1.1.0"
   },
