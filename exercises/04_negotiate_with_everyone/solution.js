@@ -1,4 +1,4 @@
-var Locales = require('locale').Locales
+var Locales = require('../../node_modules/locale').Locales
 
 module.exports = function getLocale (locales, cookies, requestHeaders) {
   var supported = new Locales(locales)

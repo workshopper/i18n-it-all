@@ -1,7 +1,7 @@
-var glob = require('glob')
+var glob = require('../../node_modules/glob')
 var fs = require('fs')
 var path = require('path')
-var xgettextJS = new (require('xgettext-js'))({
+var xgettextJS = new (require('../../node_modules/xgettext-js'))({
   keywords: {'__': 1}
 })
 

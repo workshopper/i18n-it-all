@@ -1,4 +1,4 @@
-var Qty = require('js-quantities')
+var Qty = require('../../node_modules/js-quantities')
 var fmt = new Intl.NumberFormat('en-en', { maximumFractionDigits: 2 })
 
 function formatGerman (unit, amount) {
