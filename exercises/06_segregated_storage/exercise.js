@@ -30,7 +30,7 @@ module.exports = exercise(__dirname, {
     mod(input.context, function (err, handler) {
       if (err) {
         if (input.error) {
-          callback(null, '\n[' + process.env.LANG + '] (' + input.context + ')\nError passed-on like expected!\n' + err.message)
+          return callback(null, '\n[' + process.env.LANG + '] (' + input.context + ')\nError passed-on like expected!\n' + err.message)
         }
         return callback(err)
       }
