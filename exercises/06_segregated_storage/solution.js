@@ -8,9 +8,6 @@ module.exports = function (context, callback) {
   }
   var file = path.join(__dirname, '../../data', '06_' + process.env.LANG + '.po')
   pofile.load(file, function (err, data) {
-    if (!err && !data) {
-      err = new Error('No data found')
-    }
     if (err) {
       return callback(err)
     }
