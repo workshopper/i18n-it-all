@@ -14,7 +14,8 @@
     "02_i_my_me_mine": "I my me mine",
     "03_rocket_science": "Rocket Science",
     "04_negotiate_with_everyone": "Negotiate with everyone",
-    "05_take_me_apart": "Take me apart"
+    "05_take_me_apart": "Take me apart",
+    "06_segregated_storage": "Segregated storage"
   },
   "negotiate_with_everyone": {
     "headers": "Process the request headers.",

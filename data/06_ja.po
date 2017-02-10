@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: i18n-it-all-06\n"
+"Language: ja\n"
+
+#:
+msgctxt "browser"
+msgid "help"
+msgstr "ヘルプ"
+
+#:
+msgctxt "browser"
+msgid "menu"
+msgstr "メニュー"
+
+#:
+msgctxt "browser"
+msgid "exit"
+msgstr "閉じる"
+
+#:
+msgctxt "server"
+msgid "exit"
+msgstr "{time} に止まりました"
+
+#:
+msgctxt "server"
+msgid "start"
+msgstr "{time} に {entry} を始まりました"
+
+#:
+msgctxt "server"
+msgid "finish"
+msgstr "{time} に {entry} が終わりました （ {duration} ms 係）"

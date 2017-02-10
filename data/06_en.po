@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: i18n-it-all-06\n"
+"Language: en\n"
+
+#: 
+msgctxt "browser"
+msgid "help"
+msgstr "Help"
+
+#:
+msgctxt "browser"
+msgid "menu"
+msgstr "Menu"
+
+#:
+msgctxt "browser"
+msgid "exit"
+msgstr "Exit"
+
+#:
+msgctxt "server"
+msgid "exit"
+msgstr "Exited at {time}"
+
+#:
+msgctxt "server"
+msgid "start"
+msgstr "Started {entry} at {time}"
+
+#:
+msgctxt "server"
+msgid "finish"
+msgstr "Finished {entry} at {time} (after {duration} ms)"

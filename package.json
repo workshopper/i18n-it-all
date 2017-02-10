@@ -39,6 +39,7 @@
     "lodash.samplesize": "^4.2.0",
     "lodash.zipwith": "^4.2.0",
     "mkdirp": "^0.5.1",
+    "pofile": "^1.0.2",
     "tmp": "0.0.31",
     "workshopper-adventure": "^5.1.1",
     "xgettext-js": "^1.1.0"
